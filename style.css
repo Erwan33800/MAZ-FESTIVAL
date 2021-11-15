@@ -13,7 +13,7 @@ img{
     width: 80%;
     position: relative;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 .video::after{
     content: "";
@@ -29,6 +29,6 @@ iframe{
     left: 0px;
 }
 #compte_a_rebours{
-    margin-top: 70px;
+    margin-top: 60px;
     padding-bottom: 60px;
 }
