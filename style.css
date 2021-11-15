@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    color: #fede1e;
+    text-align: center;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    margin-top: 80px;
+    width: 300px;
+}
+.video{
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.video::after{
+    content: "";
+    display: block;
+    width: 100%;
+    padding-bottom: calc(315/560*100%);
+}
+iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+#compte_a_rebours{
+    margin-top: 70px;
+    padding-bottom: 60px;
+}
